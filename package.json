@@ -1,5 +1,5 @@
 {
-  "name": "id-card",
+  "name": "node-id-card",
   "version": "0.0.1",
   "description": "get information by identification",
   "main": "index.js",
