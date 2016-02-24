@@ -1,6 +1,10 @@
 # ID-Card
 
-查询十八位身份证信息
+查询十五位和十八位身份证信息
+
+## Installation
+
+> npm install node-id-card
 
 ## Usage
 
@@ -18,7 +22,7 @@
 /**
  * {
  *   valid: true,
- *   kaddress: '陕西省咸阳市三原县',
+ *   address: '陕西省咸阳市三原县',
  *   gender: 'M',
  *   year: 1992,
  *   month: 1,
