@@ -35,4 +35,16 @@ describe('index.js', function() {
       });
     });
   });
+
+  context('generate', function() {
+    it('could return a random information whth 18 bits ID', function() {
+      var result = idCard.generate();
+      result.ID.should.have.length(18);
+    });
+
+    it('could return a random information whth 15 bits ID', function() {
+      var result = idCard.generate({ bits: 15 });
+      result.ID.should.have.length(15);
+    });
+  });
 });
