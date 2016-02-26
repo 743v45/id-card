@@ -19,6 +19,7 @@
   "author": "taevas",
   "license": "MIT",
   "dependencies": {
+    "chinese-random-name": "0.0.5",
     "lodash": "^4.5.1",
     "moment": "^2.11.2"
   },
