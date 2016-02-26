@@ -8,7 +8,7 @@
   },
   "respository": {
     "type": "git",
-    "url": "git@github.com:zyvas/id-card.git"
+    "url": "https://github.com/zyvas/id-card.git"
   },
   "bugs": {
     "url": "https://github.com/zyvas/id-card/issues"
